@@ -186,6 +186,7 @@ SELECT
 	*
 FROM PortfolioProject.dbo.NashvilleHousing AS nh
 
--- Deleting unwanted rows.
+-- Deleting unwanted columns.
 ALTER TABLE PortfolioProject.dbo.NashvilleHousing
+
 DROP COLUMN OwnerAddress, TaxDistrict, PropertyAddress;
